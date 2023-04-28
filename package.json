@@ -1,0 +1,19 @@
+{
+  "name": "api-automation-test-practice",
+  "version": "1.0.0",
+  "description": "'api automation test practice'",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Won thein",
+  "license": "ISC",
+  "devDependencies": {
+    "@wdio/cli": "^8.8.8"
+  },
+  "dependencies": {
+    "axios": "^1.4.0",
+    "mocha": "^10.2.0"
+  }
+}
