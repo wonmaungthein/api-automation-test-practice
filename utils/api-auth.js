@@ -14,7 +14,7 @@ export async function getData(url){
         africaResults : res.data.response.filter(country => country.continent == 'Africa'),
         europeResults : res.data.response.filter(country => country.continent == 'Europe'),
       }
-  
+        
       return result;
   })
   .catch((e) => {
